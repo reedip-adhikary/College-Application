@@ -1,0 +1,44 @@
+STUDENT APPLICATION
+multiple themes
+side nav
+-video lecture
+	college youtube
+-e-book
+	pdfs
+	read / download
+-website
+	college website
+-appshare
+-rate on google play
+-developer info
+
+bottom nav
+-home screen 
+	college details
+	photo slide
+	department retails
+	contact details google maps -> maps
+-news feed
+	news updates given by admin
+-Faculties
+	list of faculties 
+	sorted by department
+	details 
+	dynamic list. can be removed or added by admin
+-Gallery
+	list of photos based on events
+	image view, zoomable
+	share image
+-about us
+	about college
+	courses
+	contats
+
+
+ADMIN APP
+themes
+upload notice
+upload images gor gallary
+upload books
+update faculty info
+delete notice
