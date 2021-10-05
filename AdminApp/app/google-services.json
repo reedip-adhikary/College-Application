@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1097412242778",
+    "project_id": "jain-admin",
+    "storage_bucket": "jain-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097412242778:android:3d6e012f73e905d8b91763",
+        "android_client_info": {
+          "package_name": "com.appone.jainadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097412242778-rte14cmkgrcs8rel1cthu2uc7d1sundt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmIbmXUY1z-0Q0nLaDw-D3NaEyL3aZGcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097412242778-rte14cmkgrcs8rel1cthu2uc7d1sundt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
