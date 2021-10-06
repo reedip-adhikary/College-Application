@@ -71,7 +71,7 @@
             android:layout_marginTop="16dp"
             android:textAllCaps="false"
             android:backgroundTint="@color/green1"
-            android:id="@+id/uploadNoticeButton"/>
+            android:id="@+id/uploadNoticeBtn"/>
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
