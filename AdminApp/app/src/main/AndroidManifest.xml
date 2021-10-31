@@ -12,7 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JainAdmin">
-        <activity android:name=".UploadImage"></activity>
+        <activity android:name=".DevOps"></activity>
+        <activity android:name=".EnergyResource" />
+        <activity android:name=".SoftwareProjectManagement" />
+        <activity android:name=".SecureProgrammingLab" />
+        <activity android:name=".SecureProgramming" />
+        <activity android:name=".DepartmentActivity" />
+        <activity android:name=".UploadPdfActivity" />
+        <activity android:name=".UploadAssActivity" />
+        <activity android:name=".UploadImage" />
         <activity android:name=".UploadNotice" />
         <activity android:name=".MainActivity">
             <intent-filter>
