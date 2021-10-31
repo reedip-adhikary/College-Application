@@ -38,7 +38,7 @@ bottom nav
 ADMIN APP
 themes
 upload notice
-upload images gor gallary
+upload images for gallary
 upload books
 update faculty info
 delete notice
