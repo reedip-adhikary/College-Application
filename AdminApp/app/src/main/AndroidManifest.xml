@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JainAdmin">
-        <activity android:name=".DevOps"></activity>
+        <activity android:name=".faculty.AddTeacher"></activity>
+        <activity android:name=".faculty.UpdateFaculty" />
+        <activity android:name=".DevOps" />
         <activity android:name=".EnergyResource" />
         <activity android:name=".SoftwareProjectManagement" />
         <activity android:name=".SecureProgrammingLab" />
