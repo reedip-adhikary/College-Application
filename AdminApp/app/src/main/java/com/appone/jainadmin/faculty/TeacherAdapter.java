@@ -17,7 +17,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-public class TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherViewAdapter> {
+public class  TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherViewAdapter> {
 
     private List<TeacherData> list;
     private Context context;
@@ -42,7 +42,11 @@ public class TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherV
         holder.name.setText(item.getName());
         holder.email.setText(item.getEmail());
         holder.post.setText(item.getPost());
-        Picasso.get().load(item.getImage()).into(holder.imageView);
+        try {
+            Picasso.get().load(item.getImage()).into(holder.imageView);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         holder.update.setOnClickListener(new View.OnClickListener() {
             @Override
