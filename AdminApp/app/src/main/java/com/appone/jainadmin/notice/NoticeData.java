@@ -1,4 +1,4 @@
-package com.appone.jainadmin;
+package com.appone.jainadmin.notice;
 
 public class NoticeData {
     String title, image, date, time,key;

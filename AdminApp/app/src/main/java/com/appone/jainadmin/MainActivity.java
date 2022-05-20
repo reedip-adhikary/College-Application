@@ -8,10 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.appone.jainadmin.faculty.UpdateFaculty;
+import com.appone.jainadmin.notice.DeleteNoticeActivity;
+import com.appone.jainadmin.notice.UploadNotice;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    CardView uploadNotice, addGalleryImage, addEbook, department, faculty;
+    CardView uploadNotice, addGalleryImage, addEbook, department, faculty, deleteNotice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,12 +25,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         addEbook = findViewById(R.id.addEbook);
         department = findViewById(R.id.department);
         faculty = findViewById(R.id.faculty);
+        deleteNotice = findViewById(R.id.deleteNotice);
 
         uploadNotice.setOnClickListener(this);
         addGalleryImage.setOnClickListener(this);
         addEbook.setOnClickListener(this);
         department.setOnClickListener(this);
         faculty.setOnClickListener(this);
+        deleteNotice.setOnClickListener(this);
     }
 
     @Override
@@ -57,6 +61,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.faculty:
                 intent =new Intent(MainActivity.this, UpdateFaculty.class);
+                startActivity(intent);
+                break;
+
+            case R.id.deleteNotice:
+                intent =new Intent(MainActivity.this, DeleteNoticeActivity.class);
                 startActivity(intent);
                 break;
         }
