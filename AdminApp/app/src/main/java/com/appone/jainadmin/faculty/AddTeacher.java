@@ -171,7 +171,9 @@ public class AddTeacher extends AppCompatActivity {
             public void onSuccess(Void aVoid) {
                 pd.dismiss();
                 Toast.makeText(AddTeacher.this, "Teacher Added", Toast.LENGTH_SHORT).show();
-
+                Intent intent= new Intent(AddTeacher.this, UpdateFaculty.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override

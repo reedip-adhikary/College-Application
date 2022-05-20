@@ -82,7 +82,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     csDepartment.setHasFixedSize(true);
                     csDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list1, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list1, UpdateFaculty.this, "Computer Science");
                     csDepartment.setAdapter(adapter);
                 }
             }
@@ -111,7 +111,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     mechanicalDepartment.setHasFixedSize(true);
                     mechanicalDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list2, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list2, UpdateFaculty.this, "Mechanical");
                     mechanicalDepartment.setAdapter(adapter);
                 }
             }
@@ -140,7 +140,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     electricalDepartment.setHasFixedSize(true);
                     electricalDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list3, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list3, UpdateFaculty.this, "Electrical");
                     electricalDepartment.setAdapter(adapter);
                 }
             }
@@ -169,7 +169,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     aerospaceDepartment.setHasFixedSize(true);
                     aerospaceDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list4, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list4, UpdateFaculty.this, "Aerospace");
                     aerospaceDepartment.setAdapter(adapter);
                 }
             }
