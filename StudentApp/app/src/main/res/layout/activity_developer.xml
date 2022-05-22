@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/clg_icon"
+                android:layout_marginTop="16dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@string/bold"
+                android:gravity="center"
+                android:text="Designed and Developed by"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/latobold"
+                android:gravity="center"
+                android:text="Reedip Adhikary\n Akash Biswas \n Gunjan Kumar \n Suprakash Mandal"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/latoregular"
+                android:gravity="center"
+                android:text="Special Thanks to \n Dr. S. K. Arvind (Project Guide)"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@string/bold"
+                android:gravity="center"
+                android:text="Contact"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+
+
+
+                <TextView
+                    android:id="@+id/mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:paddingTop="7dp"
+                    android:drawableLeft="@drawable/ic_mail"
+                    android:gravity="center"
+                    android:drawablePadding="5dp"
+                    android:text="reedipadhikary@gmail.com"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginTop="10dp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:fontFamily="@string/bold"
+                android:paddingTop="7dp"
+                android:gravity="center"
+                android:text="8670674301"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="5dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
