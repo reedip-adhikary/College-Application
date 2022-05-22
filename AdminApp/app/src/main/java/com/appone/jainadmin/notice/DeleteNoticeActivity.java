@@ -56,6 +56,7 @@ public class DeleteNoticeActivity extends AppCompatActivity {
                 }
 
                 adapter = new NoticeAdapter(DeleteNoticeActivity.this, list);
+                deleteNoticeRecycler.setLayoutManager(new LinearLayoutManager(DeleteNoticeActivity.this));
                 adapter.notifyDataSetChanged();
                 progressBar.setVisibility(View.GONE);
                 deleteNoticeRecycler.setAdapter(adapter);

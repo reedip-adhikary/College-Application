@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JainAdmin">
         <activity
-            android:name=".DeleteNoticeActivity"
+            android:name=".notice.DeleteNoticeActivity"
             android:exported="false" />
         <activity android:name=".faculty.UpdateTeacherActivity" />
         <activity android:name=".faculty.AddTeacher" />
